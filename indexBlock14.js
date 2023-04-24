@@ -24,7 +24,7 @@ console.log(odd);
 //accumulate both variables
 //print output
 
-let string = ("textbook");;
+let string = ("textbook");
 
 let vowelsCount = 0;
 let consonantsCount = 0;
@@ -38,7 +38,8 @@ for (let i = 0; i < string.length; i++) {
         consonantsCount++
     }
 }
-console.log('Your string "' + string + '"' + " has " + consonantsCount + " consonants and " + vowelsCount + " vowels.")
+console.log(
+    ` ${string} has ${consonantsCount} consonants and ${vowelsCount} vowels.`)
 
 
 // write an algorithm that creates a new array in reverse order
